@@ -1,0 +1,3 @@
+(define (problem logistics-lin-a8)
+    (:domain logistics)
+    (:agents a-truck b-truck c-truck d-truck e-truck f-truck g-truck h-truck))
