@@ -1,4 +1,4 @@
-(define (problem logistics-a2)
+(define (problem logistics-lin-a2)
     (:domain logistics)
     (:requirements :strips :typing)
     (:objects
