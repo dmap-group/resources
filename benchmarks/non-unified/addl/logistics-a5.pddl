@@ -1,4 +1,4 @@
-(define (problem logistics-a6)
+(define (problem logistics-a5)
     (:domain logistics)
     (:requirements :strips :typing)
     (:objects

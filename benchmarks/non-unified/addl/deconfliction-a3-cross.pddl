@@ -1,4 +1,4 @@
-(define (problem deconfliction-a3)
+(define (problem deconfliction-a3-cross)
     (:domain deconfliction)
     (:requirements :strips :typing)
 
