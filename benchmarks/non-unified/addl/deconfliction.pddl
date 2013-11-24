@@ -3,8 +3,7 @@
   (:types
       robot place - object)
 
-  (:predicates (neq ?x - (either place robot) ?y - (either place robot))
-               (conn ?x - place ?y - place)
+  (:predicates (conn ?x - place ?y - place)
                (at ?r - robot ?x - place)
                (empty ?x - place))
 
