@@ -1,4 +1,4 @@
 (define (problem sokoban-a2)
-    (:domain sokoban-sequential)
+    (:domain sokoban)
     (:agents player-01 player-02)
 )

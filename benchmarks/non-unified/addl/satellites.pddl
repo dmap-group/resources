@@ -1,11 +1,11 @@
-(define (domain satellite)
+(define (domain satellites)
   (:requirements :strips :typing)
-  (:types 
+  (:types
    satellite - object
    direction - object
    instrument - object
    mode - object)
- (:predicates 
+ (:predicates
                (on_board ?i - instrument ?s - satellite)
 	       (supports ?i - instrument ?m - mode)
 	       (pointing ?s - satellite ?d - direction)
@@ -14,8 +14,8 @@
 	       (calibrated ?i - instrument)
 	       (have_image ?d - direction ?m - mode)
 	       (calibration_target ?i - instrument ?d - direction))
- 
- 
+
+
 
   (:action turn_to
    :parameters (?s - satellite ?d_new - direction ?d_prev - direction)
@@ -25,26 +25,26 @@
            )
   )
 
- 
+
   (:action switch_on
    :parameters (?i - instrument ?s - satellite)
- 
-   :precondition (and (on_board ?i ?s) 
+
+   :precondition (and (on_board ?i ?s)
                       (power_avail ?s)
                  )
    :effect (and (power_on ?i)
                 (not (calibrated ?i))
                 (not (power_avail ?s))
            )
-          
+
   )
 
- 
+
   (:action switch_off
    :parameters (?i - instrument ?s - satellite)
- 
+
    :precondition (and (on_board ?i ?s)
-                      (power_on ?i) 
+                      (power_on ?i)
                   )
    :effect (and (not (power_on ?i))
                 (power_avail ?s)
@@ -74,4 +74,3 @@
    :effect (have_image ?d ?m)
   )
 )
-

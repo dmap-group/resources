@@ -1,4 +1,4 @@
-(define (domain rover-uncoord)
+(define (domain rovers-uncoord)
 (:requirements :strips :typing)
 (:types rover waypoint store camera mode lander objective - object)
 (:predicates (at ?x - rover ?y - waypoint)

@@ -1,5 +1,5 @@
-(define (problem strips-sat-x-1)
-(:domain satellite)
+(define (problem satellites-a16)
+(:domain satellites)
 (:objects
     satellite0 - satellite
     instrument0 - instrument

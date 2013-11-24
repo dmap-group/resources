@@ -1,4 +1,4 @@
-(define (problem truck-crane-factory-p1)
+(define (problem truck-crane-factory-a3)
     (:domain truck-crane-factory)
     (:requirements :strips :typing)
     (:objects

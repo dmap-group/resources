@@ -1,5 +1,5 @@
-(define (problem roverprob1234)
-(:domain Rover)
+(define (problem rovers-a2-small)
+(:domain rovers)
 (:requirements :typing)
 (:objects
     general - Lander

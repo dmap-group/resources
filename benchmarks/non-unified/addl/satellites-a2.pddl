@@ -1,5 +1,5 @@
-(define (problem strips-sat-x-1)
-(:domain satellite)
+(define (problem satellites-a2)
+(:domain satellites)
 (:requirements :strips :typing)
 (:objects
     satellite0 - satellite

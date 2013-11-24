@@ -1,5 +1,5 @@
-(define (problem roverprob1234)
-(:domain Rover)
+(define (problem rovers-uncoord-a1)
+(:domain rovers-uncoord)
 (:requirements :typing)
 (:objects
     general - Lander

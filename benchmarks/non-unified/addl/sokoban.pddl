@@ -1,4 +1,4 @@
-(define (domain sokoban-sequential)
+(define (domain sokoban)
   (:requirements :typing)
   (:types thing location direction - object
           player stone - thing)

@@ -1,4 +1,4 @@
-(define (problem truck-crane-p1)
+(define (problem truck-crane-a2)
     (:domain truck-crane)
     (:requirements :strips :typing)
     (:objects

@@ -6,8 +6,8 @@
 ;; # .2. #
 ;; #######
 
-(define (problem sokoban-a1)
-  (:domain sokoban-sequential)
+(define (problem sokoban-a2)
+  (:domain sokoban)
   (:requirements :strips :typing)
   (:objects
     dir-down - direction
