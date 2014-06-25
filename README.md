@@ -1,4 +1,4 @@
-Deterministic Domain-independent Multiagent Planning (DDIMAP) Suite
+Distributed Multiagent Planning Resources
 ============
 
-Repository for DDIMAP-related resources.
+Repository for DMAP-related resources (benchmarks, coversion scripts, ...).
