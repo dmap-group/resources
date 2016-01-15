@@ -1,4 +1,0 @@
-(define (problem rovers-a4)
-    (:domain rovers)
-    (:agents rover0 rover1 rover2 rover3)
-)

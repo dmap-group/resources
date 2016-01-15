@@ -1,4 +1,0 @@
-(define (problem satellites-a5)
-    (:domain satellites)
-    (:agents satellite0 satellite1 satellite2 satellite3 satellite4)
-)

@@ -1,4 +1,0 @@
-(define (problem sokoban-a1)
-    (:domain sokoban)
-    (:agents player-01)
-)

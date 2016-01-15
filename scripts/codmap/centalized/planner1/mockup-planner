@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# This is a very simple multiagent planner (always reporting a plan to the
+# logistics00/probLOGISTICS-5-0 problem). It acts as a placeholder for your more intriguing planner.
+# You can delete this file and adjust the plan.sh to run your planner appropriately.
+
+echo "Mockup Planner started..."
+
+if [ -e "$1" ]
+then
+    echo "Domain file $1 found..."
+else
+    echo "Domain file $1 not found, exiting!"
+    exit 1
+fi
+
+if [ -e "$2" ]
+then
+    echo "Problem file $2 found..."
+else
+    echo "Problem file $2 not found, exiting!"
+    exit 1
+fi
+
+echo "Snap, I couldn't find a plan, writing the only result I know (logistics00/probLOGISTICS-5-0)..."
+rm -f $3
+echo "1: (load-truck tru1 obj11 pos1)
+2: (load-truck tru1 obj12 pos1)
+3: (load-truck tru1 obj13 pos1)
+4: (drive-truck tru1 pos1 apt1 cit1)
+5: (unload-truck tru1 obj11 apt1)
+6: (load-airplane apn1 obj11 apt1)
+7: (unload-truck tru1 obj12 apt1)
+8: (load-airplane apn1 obj12 apt1)
+9: (unload-truck tru1 obj13 apt1)
+10: (load-airplane apn1 obj13 apt1)
+11: (fly-airplane apn1 apt1 apt2)
+12: (unload-airplane apn1 obj13 apt2)
+13: (unload-airplane apn1 obj11 apt2)
+14: (unload-airplane apn1 obj12 apt2)
+15: (load-truck tru2 obj22 pos2)
+16: (load-truck tru2 obj23 pos2)
+17: (drive-truck tru2 pos2 apt2 cit2)
+18: (unload-truck tru2 obj23 apt2)
+19: (load-truck tru2 obj11 apt2)
+20: (drive-truck tru2 apt2 pos2 cit2)
+21: (unload-truck tru2 obj11 pos2)
+22: (drive-truck tru2 pos2 apt2 cit2)
+23: (load-truck tru2 obj12 apt2)
+24: (drive-truck tru2 apt2 pos2 cit2)
+25: (unload-truck tru2 obj12 pos2)
+26: (drive-truck tru2 pos2 apt2 cit2)
+27: (unload-truck tru2 obj22 apt2)
+28: (load-airplane apn1 obj22 apt2)
+29: (fly-airplane apn1 apt2 apt1)
+30: (unload-airplane apn1 obj22 apt1)" > $3
+
+echo "Mockup Planner ended."

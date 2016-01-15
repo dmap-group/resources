@@ -1,0 +1,65 @@
+
+This is a TESTING virtual machine running Ubuntu 14.04 LTS Server Edition for centralized CoDMAP track.
+
+TL;DR (I just want to try my planner now!)
+------------------------------------------
+ 1) go to planner1/ dir, upload (and compile) your planner here
+ 2) update planner1/plan.sh such that it runs your planner with the right parameters (look for
+    a "REPLACE BY CODE RUNNING YOUR PLANNER" comment)
+ 3) run run.sh planner1
+
+ !) the testing machines are shared among all competition participants, so (a) do not expect
+ realistic results by means of run times and (b) please, be kind to other competitors by not
+ using the machines for longer time and more planning problems than necessary for testing of your
+ planner in the target environment.
+
+
+Directory structure
+-------------------
+
+* benchmarks               --- directory with the competition domains and problems
+** unfactored              --- MA-PDDL unfactored variant of the bechmarks (see CoDMAP webpage for description of MA-PDDL)
+*** driverlog              --- first benchmark set (driverlog)
+**** pfile1                --- first driverlog problem
+***** domain.pddl          --- first driverlog domain PDDL
+***** problem.pddl         --- first driverlog problem PDDL
+**** pfile2                --- second driverlog problem
+**** ...                   --- other driverlog problems
+*** logistics              --- second benchmark set (logistics)
+*** ...                    --- other benchmark sets
+** factored                --- MA-PDDL factored variant of the benchmarks (see CoDMAP webpage for description of MA-PDDL)
+*** driverlog              --- first benchmark set (driverlog)
+**** pfile1                --- first driverlog problem
+***** domain-driver1.pddl  --- first driverlog domain PDDL for the agent driver1
+***** domain-driver2.pddl  --- first driverlog domain PDDL for the agent driver2
+***** problem-driver1.pddl --- first driverlog problem PDDL for the agent driver1
+***** problem-driver2.pddl --- first driverlog problem PDDL for the agent driver2
+**** pfile2                --- second driverlog problem
+**** ...                   --- other driverlog problems
+*** logistics              --- second benchmark set (logistics)
+*** ...                    --- other benchmark sets
+* planner1                 --- your first planner (or first configuration of your planner)
+** plan.sh                 --- interface script running your planner with the right parameters
+** <your planner's files>  --- your planner goes here
+* planner2                 --- your second planner (or second configuration of your planner)
+* ...                      --- other planners or configurations or common files for your planners
+* howto.txt                --- you are here
+* run.sh                   --- this script emulates how we will run all the planners and validate the plans
+
+
+Configurations of the same planner
+----------------------------------
+
+If you have only one planner, but you need to use it in more configurations, you can use different
+parameterizations of the planner in the planner1/plan.sh, planner2/plan.sh, etc scripts and reuse
+only one compiled planner in a common dir, for instance common-planner/ in root of your team's
+directory (i.e., next to the benchmarks, planner1, ... dirs). Then you simply call the planner from
+plan.sh as ../common-planner/your-planner with different parameters for planner1, planner2, etc.
+
+
+Factored or unfactored input?
+-----------------------------
+
+You can use whatever input files you want. You can even combine them if it suits your planner. In
+this track, there are no hard constraints on this. More information can be found on the CoDMAP
+webpage.

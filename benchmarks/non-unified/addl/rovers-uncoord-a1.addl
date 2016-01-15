@@ -1,4 +1,0 @@
-(define (problem rovers-uncoord-a1)
-    (:domain rovers-uncoord)
-    (:agents rover0)
-)

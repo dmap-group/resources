@@ -1,0 +1,4 @@
+(define (problem deconfliction-a3)
+    (:domain deconfliction)
+    (:agents robot1 robot2 robot3)
+)

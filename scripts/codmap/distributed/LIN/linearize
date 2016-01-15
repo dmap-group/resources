@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "output: $1"
+OUT=$1
+shift 1
+echo "inputs: $@"
+for IN in $@
+do
+   echo "processing $IN"
+   cat $IN >> $OUT
+done

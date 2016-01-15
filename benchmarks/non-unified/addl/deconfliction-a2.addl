@@ -1,4 +1,0 @@
-(define (problem deconfliction-a2)
-    (:domain deconfliction)
-    (:agents robot1 robot2)
-)

@@ -1,0 +1,3 @@
+(define (problem truck-crane-a2)
+    (:domain truck-crane)
+    (:agents truck crane))
