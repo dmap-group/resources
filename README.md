@@ -1,5 +1,5 @@
 # Distributed Multiagent Planning Resources
-##### [Planning Group](http://agents.felk.cvut.cz/topics/multi-agent_planning_and_resource_allocation) at [Department of Computer Sciences](http://cs.felk.cvut.cz/), [FEE](http://www.fel.cvut.cz/en/), [CTU in Prague](https://www.cvut.cz/en).
+##### [Planning Group](http://agents.felk.cvut.cz/topics/multi-agent_planning_and_resource_allocation) at [Department of Computer Science](http://cs.felk.cvut.cz/), [FEE](http://www.fel.cvut.cz/en/), [CTU in Prague](https://www.cvut.cz/en).
 
 
 Repository for DMAP-related resources (benchmarks, coversion scripts, competitions, ...) 
@@ -22,7 +22,7 @@ Planner repositories:
   * multiagent and singleagent planning
   * centralized, parallelized and distributed planning
   * plan-space search, compact plan representation
-  * delete-relaxation heuristics for initial state
+  * delete-relaxation heuristics for initial plans
   * model: Finite State Machine in form of Planning State Machine (PSM), SAS+ ([FastDownward](http://www.fast-downward.org/))
   * languages: MA-PDDL
   * codes: Java, C++ ([FastDownward](http://www.fast-downward.org/))
