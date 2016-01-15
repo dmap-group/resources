@@ -1,11 +1,11 @@
-Distributed Multiagent Planning Resources
-============
+# Distributed Multiagent Planning Resources
+##### [Planning Group](http://agents.felk.cvut.cz/topics/multi-agent_planning_and_resource_allocation) at [Department of Computer Sciences](http://cs.felk.cvut.cz/), [FEE](http://www.fel.cvut.cz/en/), [CTU in Prague](https://www.cvut.cz/en).
+
 
 Repository for DMAP-related resources (benchmarks, coversion scripts, competitions, ...) 
 
-[Planning Group](http://agents.felk.cvut.cz/topics/multi-agent_planning_and_resource_allocation) at [Department of Computer Sciences](http://cs.felk.cvut.cz/), [FEE](http://www.fel.cvut.cz/en/), [CTU in Prague](https://www.cvut.cz/en).
-
-Information on the Competition of Distributed and Multiagent Planners: [CoDMAP](http://agents.fel.cvut.cz/codmap/).
+Competitions:
+* Competition of Distributed and Multiagent Planners: [CoDMAP](http://agents.fel.cvut.cz/codmap/).
 
 Planner repositories:
 * MAPlan: https://github.com/danfis/maplan
