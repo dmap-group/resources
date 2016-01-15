@@ -21,7 +21,7 @@ Planner repositories:
 * PSM: comming soon
   * multiagent and singleagent planning
   * centralized, parallelized and distributed planning
-  * plan-space search, compact plan representation
+  * plan-space search, local state-space search ([FastDownward](http://www.fast-downward.org/)), compact plan representation
   * delete-relaxation heuristics for initial plans
   * model: Finite State Machine in form of Planning State Machine (PSM), SAS+ ([FastDownward](http://www.fast-downward.org/))
   * languages: MA-PDDL
