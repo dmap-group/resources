@@ -26,7 +26,7 @@ Planner repositories:
   * model: Finite State Machine in form of Planning State Machine (PSM), SAS+ ([FastDownward](http://www.fast-downward.org/))
   * languages: MA-PDDL
   * codes: Java, C++ ([FastDownward](http://www.fast-downward.org/))
-  * weak privacy preservation (theoretical strong privacy variant exists (http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006176400510057))
+  * weak privacy preservation (theoretical strong privacy variant [exists](http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006176400510057))
   * more info: [pages 29-32](http://agents.fel.cvut.cz/codmap/results/CoDMAP15-proceedings.pdf)
 * MADLA Planner: https://github.com/stolba/MADLAPlanner
   * multiagent and singleagent planning
