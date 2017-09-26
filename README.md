@@ -18,7 +18,7 @@ Planner repositories:
   * codes: C
   * weak privacy preservation (obfuscation by hashing)
   * more info: [pages 8-10](http://agents.fel.cvut.cz/codmap/results/CoDMAP15-proceedings.pdf)
-* PSM: https://gitlab.fel.cvut.cz/tozicjan/psm-planner
+* PSM: https://github.com/gree7/psm-planner/
   * multiagent and singleagent planning
   * centralized, parallelized and distributed planning
   * plan-space search, local state-space search ([FastDownward](http://www.fast-downward.org/)), compact plan representation
